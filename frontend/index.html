@@ -1,0 +1,23 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Machine Failure Predictor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Machinery Failure Predictor</h1>
+    <form id="form">
+      <label>Temperature: <input type="number" step="any" id="temperature" required></label>
+      <label>Pressure: <input type="number" step="any" id="pressure" required></label>
+      <label>Vibration: <input type="number" step="any" id="vibration" required></label>
+      <label>Humidity: <input type="number" step="any" id="humidity" required></label>
+      <button type="submit">Predict</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
