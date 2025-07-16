@@ -1,12 +1,12 @@
 # machinery-failure-predictor
-PROBLEM STATEMENT
-GOAL:
+#PROBLEM STATEMENT
+#GOAL:
  Predict whether a machine is likely to fail soon based on sensor readings like temperature, pressure, vibration, and humidity.
 Machine failures can be costly. So, if we can predict them before they happen, we can:
 Schedule preventive maintenance
 Reduce downtime and expenses
 Increase machinery life and safety
-SOLUTION OVERVIEW:
+#SOLUTION OVERVIEW:
 We build an end-to-end ML system that:
 Trains a model on sensor data (simulated here)
 Predicts failure risk based on new input data
